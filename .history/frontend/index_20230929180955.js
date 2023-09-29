@@ -20,6 +20,14 @@ async function moduleProject4() {
   document.querySelector('#weatherWidget').style.display = 'none';
   document.querySelector('#citySelect').addEventListener('change', async (evt) => {
     console.log('selection changed');
+    try {
+      document.querySelector('#citySelect').setAttribute('disabled', 'disabled');
+      document.querySelector('#weatherWidget').style.display = 'none';
+      document.querySelector('.info').textContent = 'Fetching weather data...';
+    } catch (err) {
+      // Handle errors here
+      console.error(err);
+    }
   });
   // 👆 WORK WORK ABOVE THIS LINE 👆
 

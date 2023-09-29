@@ -17,10 +17,9 @@ async function moduleProject4() {
   ]
 
   // 👉 Tasks 1 - 5 go here
-  document.querySelector('#weatherWidget').style.display = 'none';
-  document.querySelector('#citySelect').addEventListener('change', async (evt) => {
-    console.log('selection changed');
-  });
+  document.querySelector('#weatherWidget').style.display = 'none'
+document.querySelector('#weatherWidget').style.display = '
+
   // 👆 WORK WORK ABOVE THIS LINE 👆
 
 }
