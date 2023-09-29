@@ -1,1 +1,0 @@
-Unexpected token 'try' (at index.js:23:3)
